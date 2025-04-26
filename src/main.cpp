@@ -4,7 +4,7 @@
 
 int main() {
 
-    fr::Window window(800, 800, "Framer-Project");
+    fr::Window window(800, 800, "RayTracer");
 
     glm::vec4 background{0.07f, 0.13f, 0.17f, 1.0f};
     while (window.IsRunning()) {
